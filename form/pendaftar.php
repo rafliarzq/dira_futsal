@@ -9,7 +9,8 @@
 </head>
 
 <body>
-    <a href="index.php">Back to home</a>
+    <a href="../logout.php">logout</a>
+    <a href="../welcome.php">Back to home</a>
     <h1>Silahkan isi bidang di bawah ini</h1>
     <form action="input_data_pendaftar.php" method="post">
 

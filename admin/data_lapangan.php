@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <a href="index.php">Back to home</a>
+    <a href="welcome.php">Back to home</a>
     <h1>Silahkan isi data lapangan</h1>
     <form action="" method="post">
 

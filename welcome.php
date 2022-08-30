@@ -20,12 +20,7 @@ if($_SESSION['level'] = "") {
 <body>
     <h1>Selamat datang di sekolah </h1>
     <p>Silahkan klik tombol daftar di bawah ini</p>
-    <a href="form/pendaftar.php">Daftar</a>
-
-    <h3>masuk sebagai admin</h3>
-    <br><br>
-    <a href="admin/data_lapangan.php">isi data lapangan</a>
-    <a href="admin/data_pembayaran">update pembayaran</a>
+    <a href="./form/pendaftar.php">Daftar</a>
 </body>
 
 </html>

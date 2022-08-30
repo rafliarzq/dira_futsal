@@ -23,11 +23,11 @@ if(isset($_POST['submit'])) {
             #code
             $_SESSION['username'] = $row['username'];
             $_SESSION['hak_akses'] = $row['hak_akses'];
-            header('location: welcome.php');
+            header('location: admin/welcome.php');
         }elseif($row['hak_akses'] == '9'){
             $_SESSION['username'] = $row['username'];
             $_SESSION['hak_akses'] = $row['hak_akses'];
-            header('location: admin/welcome.php');
+            header('location: welcome.php');
         } 
     }else{echo "<script>alert('Username atau password salah, silahkan di ulangi')</script>";
     }
